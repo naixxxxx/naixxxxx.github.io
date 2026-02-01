@@ -7,12 +7,15 @@ theme = 'PaperMod'                      # 指定使用的主题文件夹名称
     math = true           # 语义化开关：告知主题此站点包含数学内容 
     defaultTheme = "light"          # 默认白色背景
     disableThemeToggle = true       # 去掉切换按钮
+    hideFooter = true  # 藏掉底下的丑logo
 
-
-[[menu.main]]
+[[menu.main]]   # about页
     identifier = "about"
     name = "about"
     url = "/about/"
+
+
+    
 
 [markup]
     [markup.goldmark]
