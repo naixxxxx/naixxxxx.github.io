@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Naix's Blog</title><link>https://naixxxxx.github.io/posts/</link><description>Recent content in Posts on Naix's Blog</description><generator>Hugo -- 0.155.1</generator><language>zh-cn</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://naixxxxx.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>RL Math Theory Test</title><link>https://naixxxxx.github.io/posts/math-test/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://naixxxxx.github.io/posts/math-test/</guid><description>&lt;h3 id="策略梯度公式测试"&gt;策略梯度公式测试&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Naix&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Naix&#39;s Blog</description>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RL Math Theory Test</title>
+      <link>http://localhost:1313/posts/math-test/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/math-test/</guid>
+      <description>&lt;h3 id=&#34;策略梯度公式测试&#34;&gt;策略梯度公式测试&lt;/h3&gt;
 &lt;p&gt;我们来验证一下手动注入的 KaTeX 是否工作：&lt;/p&gt;
 $$
 \nabla_\theta J(\theta) = E_{\tau \sim \pi_\theta} \left[ \sum_{t=0}^T \nabla_\theta \log \pi_\theta(a_t|s_t) A^{\pi_\theta}(s_t, a_t) \right]
-$$&lt;p&gt;行内公式测试：$\pi_\theta(a|s)$&lt;/p&gt;</description></item></channel></rss>
+$$&lt;p&gt;行内公式测试：$\pi_\theta(a|s)$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
