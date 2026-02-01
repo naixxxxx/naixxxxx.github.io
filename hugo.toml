@@ -1,0 +1,26 @@
+baseURL = 'https://naixxxxx.github.io/' # 博客上线后的主页网址
+languageCode = 'zh-cn'                  # 网站使用的语言
+title = "Naix's Blog"                 # 网站的标题（显示在浏览器标签页上）
+theme = 'PaperMod'                      # 指定使用的主题文件夹名称
+
+[params]
+    # 语义化开关：告知主题此站点包含数学内容
+    # 配合 extend_head.html 中的逻辑判断使用
+    math = true 
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            # 允许在 Markdown 中直接解析原生 HTML 标签
+            # 这是 KaTeX 脚本正常运行的基础安全设置
+            unsafe = true 
+
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                # 开启“直通车”模式：防止 Hugo 编译器破坏 LaTeX 符号
+                enable = true 
+                
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    # 定义哪些符号包裹的内容不需要被 Hugo 编译，而是原样输出
+                    block = [['$$', '$$']]  # 独立公式块标识符
+                    inline = [['$', '$']]   # 行内公式标识符
