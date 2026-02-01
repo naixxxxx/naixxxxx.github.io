@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.155.1  # 跟你本地版本一致
+      HUGO_VERSION: 0.155.1  # 跟本地版本一致
     steps:
       - name: Install Hugo CLI
         run: |

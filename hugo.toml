@@ -4,9 +4,15 @@ title = "Naix's Blog"                 # 网站的标题（显示在浏览器标�
 theme = 'PaperMod'                      # 指定使用的主题文件夹名称
 
 [params]
-    # 语义化开关：告知主题此站点包含数学内容
-    # 配合 extend_head.html 中的逻辑判断使用
-    math = true 
+    math = true           # 语义化开关：告知主题此站点包含数学内容 
+    defaultTheme = "light"          # 默认白色背景
+    disableThemeToggle = true       # 去掉切换按钮
+
+
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
 
 [markup]
     [markup.goldmark]
