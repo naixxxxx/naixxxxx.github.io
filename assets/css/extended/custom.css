@@ -1,0 +1,12 @@
+/*改背景为纯白 */
+.list {
+    background: #ffffff;
+}
+
+/* 改导航栏字体为24px */
+nav a {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
