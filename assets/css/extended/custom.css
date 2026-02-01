@@ -10,3 +10,10 @@ nav a {
     font-family: -apple-system, BlinkMacSystemFont, 
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
+
+/* 移除当前活动导航链接的下划线 */
+.nav-links a.active,
+.nav-links a:hover {
+    text-decoration: none !important;
+    box-shadow: none !important;
+}

@@ -19,7 +19,18 @@
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;这是我的第一篇博客文章。&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是我的第一篇博客文章。&lt;/p&gt;
+&lt;h2 id=&#34;行内公式测试&#34;&gt;行内公式测试&lt;/h2&gt;
+&lt;p&gt;这是爱因斯坦质能方程 $E=mc^2$，应该正确显示。&lt;/p&gt;
+&lt;h2 id=&#34;独立公式测试&#34;&gt;独立公式测试&lt;/h2&gt;
+$$
+\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)
+$$$$
+\begin{aligned}
+\nabla \cdot \mathbf{E} &amp;= \frac{\rho}{\varepsilon_0} \\
+\nabla \times \mathbf{E} &amp;= -\frac{\partial \mathbf{B}}{\partial t}
+\end{aligned}
+$$</description>
     </item>
   </channel>
 </rss>
