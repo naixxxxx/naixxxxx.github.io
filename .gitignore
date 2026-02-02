@@ -1,2 +1,7 @@
 # macOS 垃圾文件
 .DS_Store
+
+# Hugo 生成的静态网站成品（不需要存代码库，因为可以自动生成）
+/public
+/resources
+
