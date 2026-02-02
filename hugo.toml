@@ -6,7 +6,7 @@ theme = 'PaperMod'                      # 指定使用的主题文件夹名称
 [params]
     math = true           # 语义化开关：告知主题此站点包含数学内容 
     defaultTheme = "light"          # 默认白色背景
-    disableThemeToggle = true       # 去掉切换按钮
+    disableThemeToggle = false      # 去掉切换按钮
     hideFooter = true  # 藏掉底下的logo
     hideSummary = true   # 隐藏文章摘要
     hideMeta = true      # 隐藏日期、阅读时间等元信息
