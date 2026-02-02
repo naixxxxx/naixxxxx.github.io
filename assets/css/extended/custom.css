@@ -3,6 +3,9 @@
     background: #ffffff;
 }
 
+
+
+
 /* 改导航栏字体为24px */
 nav a {
     font-size: 24px !important;
@@ -11,16 +14,22 @@ nav a {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
+
+
+
+
 /* 移除标题旁边的 # 号锚点链接 */
 .anchor,
 a.anchor {
     display: none !important;
 }
 
+
+
+
+
 /*导航栏 去掉下划线*/
 
-/* 1. 统一字体：同时选中链接(a)和选中态(span)，防止点开后字体变小
-   2. 精准去线：只针对 active 状态去掉底部边框                */
 #menu a, 
 #menu .active {
     font-size: 24px !important;
@@ -28,4 +37,46 @@ a.anchor {
 }
 #menu .active {
     border-bottom: none !important;
+}
+
+
+
+
+/* 让文章和导航栏隔开距离 */
+.main {
+    margin-top: 80px !important;
+}
+
+
+
+/* 对每一篇文章 */
+.post-entry,
+.first-entry {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    margin-bottom: 60px !important;
+    padding: 0 !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+
+
+/* 对第一篇文章的特殊修改 让它和其他文章一样*/
+.first-entry {
+    min-height: 0 !important;
+    display: block !important;
+}
+.first-entry .entry-title {
+    font-size: 24px !important;
+}
+
+
+
+
+/* 取消点击文章的抖动效果 */
+.post-entry:active,
+.first-entry:active {
+    transform: none !important;
 }
