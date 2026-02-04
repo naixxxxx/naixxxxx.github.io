@@ -1,7 +1,7 @@
 ---
 title: "如是我闻"
+date: 2026-02-01
 draft: false
-weight: 1
 ---
 
 这是我的第一篇博客文章。

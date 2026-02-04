@@ -49,7 +49,7 @@ a.anchor {
 
 
 
-/* 对每一篇文章 */
+/* 对每一篇文章的标签页 */
 .post-entry,
 .first-entry {
     border: none !important;
@@ -79,4 +79,9 @@ a.anchor {
 .post-entry:active,
 .first-entry:active {
     transform: none !important;
+}
+
+/* 每篇文章的标题大小改小 */
+.post-title {
+    font-size: 30px !important; 
 }
